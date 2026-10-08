@@ -23,19 +23,35 @@
             </div>
 
             <nav class="flex-1 space-y-2">
-                <a href="/home" class="@GetActiveClass("home")">🏠 Home</a>
-                <a href="/profile" class="@GetActiveClass("profile")">👤 My Profile</a>
-                <a href="/openplays" class="@GetActiveClass("openplays")">🎾 Open Plays</a>
-                <a href="/tournaments" class="@GetActiveClass("tournaments")">🏆 Tournaments</a>
-                <a href="/leaderboard" class="@GetActiveClass("leaderboard")">📊 Rankings</a>
-                <a href="/myclubs" class="@GetActiveClass("myclubs")">🤝 My Clubs</a>
-            </nav>
+    <a href="/home" class="@GetActiveClass("home")">
+        <span>🏠</span> Home
+    </a>
+    <a href="/profile" class="@GetActiveClass("profile")">
+        <span>👤</span> My Profile
+    </a>
+    <a href="/openplays" class="@GetActiveClass("openplays")">
+        <span>🎾</span> Open Plays
+    </a>
+    <a href="/tournaments" class="@GetActiveClass("tournaments")">
+        <span>🏆</span> Tournaments
+    </a>
+    <a href="/leaderboard" class="@GetActiveClass("leaderboard")">
+        <span>📊</span> Rankings
+    </a>
+    <!-- ADD THIS: So you can access the Rating feature -->
+    <a href="/history" class="@GetActiveClass("history")">
+        <span>🕒</span> Activity History
+    </a>
+    <a href="/myclubs" class="@GetActiveClass("myclubs")">
+        <span>🤝</span> My Clubs
+    </a>
+</nav>
 
-            <div class="pt-8 border-t border-white/10">
-                <a href="/" class="flex items-center gap-3 px-4 py-3 rounded-2xl text-orange-400 font-bold hover:bg-red-500/10 transition-all">
-                    🚪 Log Out
-                </a>
-            </div>
+<div class="pt-8 border-t border-white/10">
+    <a href="/" class="flex items-center gap-3 px-4 py-3 rounded-xl text-orange-400 font-[900] uppercase text-[11px] tracking-widest hover:bg-red-500/10 transition-all">
+        <span>🚪</span> Log Out
+    </a>
+</div>
         </aside>
     }
 
